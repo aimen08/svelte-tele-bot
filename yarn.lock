@@ -129,6 +129,11 @@
     svelte-hmr "^0.15.1"
     vitefu "^0.2.4"
 
+"@types/telegram-web-app@^6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@types/telegram-web-app/-/telegram-web-app-6.7.0.tgz#85cd0b0de24eab53f8d47c19214a80aa45980e30"
+  integrity sha512-ill31jBCQW6bo4k0GjsUVNKP0MY336p7ZUxmMi+WofAbO7Reb366jsnqNIrqNtxcIB4kKEpMUHVniArcXSML6g==
+
 array-union@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
