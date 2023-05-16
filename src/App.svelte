@@ -1,10 +1,9 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
+  import Logo from './assets/logo.png'
   import Counter from './lib/Counter.svelte'
     let md;
   	const initializeTelegram = () => {
-		md = window.Telegram.WebApp.themeParams ;
+		md = window.Telegram.WebApp.initData ;
     console.log(md);
 	}
 </script>
@@ -16,30 +15,22 @@
 <main>
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
+      <img src={Logo} class="logo" alt="false" />
     </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
 
-  <div class="card">
-    <Counter />
   </div>
+  <h2>تلغرام بوت لشراء المتابعة</h2>
+
+
 </main>
 
 <style>
   .logo {
     height: 6em;
-    padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
   }
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
+    filter: drop-shadow(0 0 2em #02aa64aa);
   }
 </style>
